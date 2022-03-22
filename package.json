@@ -1,0 +1,71 @@
+{
+  "name": "cli-starter",
+  "version": "1.0.0",
+  "description": "Let you create node cli with this user friendly starter",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-node-cli": "index.js",
+    "ncs": "index.js"
+  },
+  "files": [
+    "index.js",
+    "utils",
+    "template"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csalam07/node-cli-starter.git"
+  },
+  "keywords": [
+    "node",
+    "starter",
+    "cli",
+    "meow",
+    "helper",
+    "node-cli-starter",
+    "cli-helper",
+    "node-helper",
+    "node-helper-cli",
+    "console",
+    "node-cli",
+    "create-node-cli",
+    "Create Node.js CLI",
+    "Build Node CLI",
+    "node helper cli windows",
+    "node helper cli macos",
+    "node helper cli linux",
+    "node helper cli windows mac linux",
+    "csalam",
+    "csalam07"
+  ],
+  "author": {
+    "name": "csalam07",
+    "linkedIn": "linkedin.com/in/shahbajz-alam-b47678193",
+    "twitter": "https://twitter.com/CSALam12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csalam07/node-cli-starter/issues"
+  },
+  "homepage": "https://github.com/csalam07/node-cli-starter#readme",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "cancelled-cli": "^1.0.1",
+    "chalk": "^5.0.1",
+    "cli-alert-msg": "^1.0.0",
+    "copy-template-dir": "^1.4.0",
+    "customize-unhandled-error": "^1.0.0",
+    "data-store": "^4.0.3",
+    "enquirer": "^2.3.6",
+    "error-handle-cli": "^1.0.2",
+    "execa": "^6.1.0",
+    "meow": "^10.1.2",
+    "meow-helper-cli": "^1.0.0",
+    "ora": "^6.1.0",
+    "welcome-for-cli": "^1.0.4"
+  }
+}
